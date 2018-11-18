@@ -31,12 +31,16 @@ public class Main {
         
         System.out.println("Opiskelijanumero " + studentNr);
         System.out.println("");
-
+        
+        int teht = 0;
+        int tunnit = 0;
         for(Submission submission : subs){
            System.out.println(submission);
+           teht = teht + submission.getExercises();
+           tunnit = tunnit + submission.getHours();
             
         }
-
+        System.out.println("Yhteensä: " +teht+ " tehtävää "+ tunnit+ " tuntia");
 
     }
 }

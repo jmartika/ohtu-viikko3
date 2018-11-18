@@ -21,6 +21,7 @@ public class Stepdefs {
         element.click();          
     } 
 
+    
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are given$")
     public void username_and_password_are_given(String username, String password) throws Throwable {
         WebElement element = driver.findElement(By.name("username"));
@@ -45,6 +46,12 @@ public class Stepdefs {
     public void username_and_incorrect_password_are_given(String username, String password) throws Throwable {
         logInWith(username, password);
     }
+   
+    @When("^non existent username \"([^\"]*)\" and incorrect password \"([^\"]*)\"$")
+    public void non_existent_username_and_incorrect_password(String username, String password) throws Throwable {
+        logInWith(username, password);
+
+    }
     
     @Then("^user is logged in$")
     public void user_is_logged_in() throws Throwable {
@@ -56,6 +63,15 @@ public class Stepdefs {
         pageHasContent("invalid username or password");
         pageHasContent("Give your credentials to login");
     }     
+    
+   
+      
+    @Then("^user not logged in and error message is given$")
+    public void user_not_logged_in_and_error_message_is_given() throws Throwable {
+        pageHasContent("invalid username or password");
+        pageHasContent("Give your credentials to login");
+    } 
+    
     
     @After
     public void tearDown(){

@@ -31,6 +31,14 @@ public class Submission {
         return week;
     }
     
+    public int getHours() {
+        return hours;
+    }
+    
+    public int getExercises(){
+        int summa = this.exercises.size();           
+        return summa;
+    }
 
 
 
