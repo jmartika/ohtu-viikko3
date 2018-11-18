@@ -10,6 +10,7 @@ import ohtu.io.*;
 import ohtu.data_access.*;
 import ohtu.services.*;
 
+
 public class Stepdefs {
     App app;
     StubIO io;
@@ -21,6 +22,9 @@ public class Stepdefs {
     public void command_login_selected() throws Throwable {
         inputLines.add("login");
     }
+    
+  
+  
 
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are entered$")
     public void a_username_and_password_are_entered(String username, String password) throws Throwable {
@@ -32,17 +36,9 @@ public class Stepdefs {
        app.run();
     }
     
-    @When("^username \"([^\"]*)\" and password \"([^\"]*)\"$")
-    public void username_and_password(String username, String password) throws Throwable {
+    
+    
 
-        inputLines.add(username);
-        inputLines.add(password);
-       
-        io = new StubIO(inputLines); 
-        app = new App(io, auth);
-        app.run();
-       
-    }
 
     @Then("^system will respond with \"([^\"]*)\"$")
     public void system_will_respond_with(String expectedOutput) throws Throwable {
