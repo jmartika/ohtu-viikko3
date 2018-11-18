@@ -31,6 +31,9 @@ public class Submission {
         return week;
     }
     
+    public String getCourse() {
+        return course;
+    }
     public int getHours() {
         return hours;
     }
@@ -39,7 +42,10 @@ public class Submission {
         int summa = this.exercises.size();           
         return summa;
     }
-
+    
+    public List getExerciseList(){           
+        return exercises;
+    }
 
 
     @Override
