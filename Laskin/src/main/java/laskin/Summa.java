@@ -22,21 +22,20 @@ public class Summa implements Komento {
     private int arvo;
     
     public Summa(TextField tuloskentta, TextField syotekentta, Button nollaa, Button undo, Sovelluslogiikka sovellus) {
-        this.arvo = 0;
         this.sovellus = sovellus;
         this.nollaa = nollaa;
         this.undo = undo;
         this.syotekentta = syotekentta;
         this.tuloskentta = tuloskentta;
-        try {
-            this.arvo = Integer.parseInt(this.syotekentta.getText());
-        } catch (Exception e) {
-        }
+
+
     }
     
     
     @Override
     public void suorita() {
+        
+        this.arvo = Integer.parseInt(this.syotekentta.getText());
         this.sovellus.plus(this.arvo);
         this.laskunTulos = this.sovellus.tulos();
     

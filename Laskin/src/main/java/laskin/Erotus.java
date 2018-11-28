@@ -28,17 +28,16 @@ public class Erotus implements Komento {
         this.undo = undo;
         this.syotekentta = syotekentta;
         this.tuloskentta = tuloskentta;
-        this.arvo = 0;
-        
-        try {
-            this.arvo = Integer.parseInt(this.syotekentta.getText());
-        } catch (Exception e) {
-        }
+
+
+  
+
 
     }
     
     @Override
     public void suorita() {
+        this.arvo = Integer.parseInt(this.syotekentta.getText());
         this.sovellus.miinus(this.arvo);
         
         this.laskunTulos = this.sovellus.tulos();
