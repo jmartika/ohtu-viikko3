@@ -14,13 +14,31 @@ import javafx.scene.control.TextField;
  */
 public class Nollaa implements Komento {
     private Sovelluslogiikka sovellus;
+    private int laskunTulos;
+    private TextField tuloskentta;
+    private TextField syotekentta;
+    private Button nollaa;
+    private Button undo;
 
     public Nollaa(TextField tuloskentta, TextField syotekentta, Button nollaa, Button undo, Sovelluslogiikka sovellus) {
         this.sovellus = sovellus;
+        this.nollaa = nollaa;
+        this.undo = undo;
+        this.syotekentta = syotekentta;
+        this.tuloskentta = tuloskentta;
     }
     @Override
     public void suorita() {
-
+        this.sovellus.nollaa();
+        this.laskunTulos = this.sovellus.tulos();
+    
+        this.syotekentta.setText("");
+        this.tuloskentta.setText("" + this.laskunTulos);
+        if ( this.laskunTulos==0) {
+            this.nollaa.disableProperty().set(true);
+        } else {
+            this.nollaa.disableProperty().set(false);
+        }
     }
     
      @Override
