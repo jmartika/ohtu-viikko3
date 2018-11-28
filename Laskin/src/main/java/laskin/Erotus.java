@@ -21,6 +21,7 @@ public class Erotus implements Komento {
     private TextField syotekentta;
     private Button nollaa;
     private Button undo;
+    private Edelliset edellinen;
 
     public Erotus(TextField tuloskentta, TextField syotekentta, Button nollaa, Button undo, Sovelluslogiikka sovellus) {
         this.sovellus = sovellus;
@@ -37,8 +38,14 @@ public class Erotus implements Komento {
     
     @Override
     public void suorita() {
-        this.arvo = Integer.parseInt(this.syotekentta.getText());
+        
+        try {
+            this.arvo = Integer.parseInt(this.syotekentta.getText());
+        } catch (Exception e) {
+        }
+
         this.sovellus.miinus(this.arvo);
+        this.edellinen = new Edelliset(this.arvo);
         
         this.laskunTulos = this.sovellus.tulos();
     
@@ -49,11 +56,21 @@ public class Erotus implements Komento {
         } else {
             this.nollaa.disableProperty().set(false);
         }
+        undo.disableProperty().set(false);
     }
     
      @Override
     public void peru() {
-
+        this.laskunTulos = sovellus.tulos()+this.edellinen.getEdellinen();
+        this.sovellus.setTulos(this.laskunTulos);
+        this.syotekentta.setText("");
+        this.tuloskentta.setText("" + this.laskunTulos);
+        if ( this.laskunTulos==0) {
+            this.nollaa.disableProperty().set(true);
+        } else {
+            this.nollaa.disableProperty().set(false);
+        }
+        undo.disableProperty().set(true);
     }
     
 }
