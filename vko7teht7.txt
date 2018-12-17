@@ -1,0 +1,10 @@
+Ohjelmistoarkkitehtuurin sisällyttäminen ketteriin ohjelmistotuotantomenetelmiin
+
+Arkkitehtuuri voidaan erottaa erilliseksi prosessiksi, jolloin vastuu järjestelmän 
+rakenteesta siirtyy erilliselle arkkitehtiryhmälle. Se voi noudattaa omaa 
+prosessimalliaan, mutta välietapit synkronoidaan toiminnallisuuksista vastaavan 
+ryhmän kanssa. Kehitysvaihe voi sisältää lyhyitä suunnittelupiikkejä, joissa 
+suunnitellaan ja kokeillaan vaihtoehtoja vaativille teknisille tai rakenteellisille 
+ongelmille käyttämättä paljon resursseja, tai pidempiä arkkitehtuurijaksoja, joissa 
+suunnitteluun ja testaamiseen osallistuu koko ryhmä.
+

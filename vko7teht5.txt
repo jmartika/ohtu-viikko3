@@ -1,0 +1,14 @@
+Ohjelmistotuotantomenetelmien kehittyminen 1950-luvulta nykypäivään
+
+Tietokoneet ovat kehittyneet valtavasti 1950-luvun koneista. 
+Ohjelmoinnista tulee sitä monimutkaisempaa mitä enemmän tietokoneet 
+kehittyvät. Myös ohjelmistotuotantomenetelmät ovat kehittyneet ajan 
+kanssa. Vesiputousmalli oli yksi ensimmäisistä ohjelmistotuotantomenetelmistä 
+1950-luvulla. Inkrementaaliset ja iteratiiviset menetelmät kehitettiin 
+vastaamaan vesiputousmallin ongelmiin 1990-luvulla, näitä ovat 
+mm. spiraalimalli ja rational unified process. Ketterät 
+ohjelmistotuotantomenetelmät kehitettiin 2000-luvulla, ja ne syntyivät 
+reaktiona perinteisten menetelmien vaatimus- ja suunnitelma- painotteisuudelle. 
+Ketterät menetelmät kykenevät mukautumaan alan ja teknologian nopeasta 
+muutoksesta johtuviin vaatimuksiin.
+

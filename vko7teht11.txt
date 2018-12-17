@@ -1,0 +1,10 @@
+Scrumban-menetelmän käyttö ketterässä ohjelmistokehityksessä
+
+Scrumban on ketterä ohjelmistokehityksen menetelmä, joka 
+yhdistää Scrumin ja Kanbanin piirteitä. Scrumban soveltuu 
+arvaamattomille ja nopeasti muuttuville prosesseille. 
+Scrumin ongelmana on aikarajoitettujen iteraatioiden noudattaminen 
+ja Kanbanin ongelmana rajoitteiden puute. Scrumbanissa on yhdistetty 
+Scrumin palautesykli ja Kanbanin visualisointi. Tällainen prosessi 
+soveltuu erinomaisesti arvaamattomaan ympäristöön.
+

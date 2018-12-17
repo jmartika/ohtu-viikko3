@@ -1,0 +1,11 @@
+Ryhmätyö ohjelmistokehityksessä
+
+Ohjelmistoalalla on tavanomaista tehdä projektit ryhmässä. 
+Tämä vaatii järjestäytynyttä toimintaa ja ryhmän jäsenten 
+välistä kommunikointia sekä yhteistyötä. Ketteriä menetelmiä, 
+kuten Scrumia, käytetään usein ohjelmistojen kehityksessä. 
+Jokaisen ihmisen persoonallisuudella on vaikutusta ryhmän 
+synergiaan. Tietyt luonteenpiirteet voivat olla hyödyksi 
+ohjelmistokehityksessä, toisaalta tietyt luonteenpiirteet 
+voivat olla haitaksi. Ryhmätyön avaintekijä on kommunikointi.
+

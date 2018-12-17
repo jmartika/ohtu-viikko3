@@ -1,0 +1,10 @@
+Johtaminen perinteisissä ja ketterissä ohjelmistoprojekteissa
+
+Projektin johtajalla on projektin onnistumisen kannalta tärkeä rooli. 
+Perinteisessä projektijohtamisessa korostetaan huolellista 
+ennakkosuunnittelua ja taitavan projektipäällikön roolia. 
+Projektijohtaminen ei välttämättä ole autoritaarista ja kontrolloivaa, 
+vaikka välillä tällainen johtamistyyli on hyödyksi. Ketterissä menetelmissä 
+johtamisvastuu on hajautettu projektitiimin jäsenille, ja myös asiakas on 
+mukana kehitysprosessissa. Kaikki tiimin jäsenet osallistuvat päätöksentekoon.
+

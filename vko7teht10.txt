@@ -1,0 +1,11 @@
+Jatkuva experimentointi ohjelmistokehityksen tukena
+
+On tärkeää, että yrityksen tuottama ohjelmisto vastaa 
+käyttäjän tarpeita. On siis perusteltua tehdä päivityksiä 
+usein ja pitää ne pienikokoisina. Jatkuvan experimentoinnin 
+soveltaminen ohjelmistotuotannossa näyttäytyy potentiaalisena 
+menettelytapana. Sekä kehittäjät että asiakkaat hyötyvät 
+ominaisuuksista, jotka on kehitetty konkreettisen tiedon 
+pohjalta arvauksien sijaan. Tämän menettelytavan ansiosta myös 
+ohjelmiston laatu paranee.
+
